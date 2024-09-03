@@ -2,14 +2,22 @@
   height: 50px;
   background-color: white;
     ul{
-        width: 30%;
+        width: 90%;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+       
         li{
             list-style-type: none;
+            margin-top: 1rem;
+            
         }
     }
     a{
         text-decoration: none;
+        color: brown;
+        font-weight: 600;
+        font-size: 1.2rem;
+        font-family: 'Roboto';
+       
     }
 }
